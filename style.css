@@ -14,16 +14,6 @@ body {
 }
 
 /*  header */
-.navbar-toggler {
-    font-size: 2rem;
-    padding: 10px 15px;
-    border: 2px solid black !important;
-    border-radius: 10px;
-    box-shadow: 3px 5px black;
-    right: 35px;
-    position: absolute;
-}
-
 .logo {
     width: 90px;
     height: auto;
@@ -31,17 +21,6 @@ body {
 
 .fa-bars {
     color: black;
-}
-
-.navbar-toggler:hover {
-    box-shadow: none;
-    background-color: #F5F5F5;
-}
-
-.navbar-toggler:focus {
-    border: none;
-    outline: none;
-    background-color: #F5F5F5;
 }
 
 .nav-wrapper {
@@ -219,17 +198,6 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-    #collapsibleNavbar {
-        background-color: #F5F5F5;
-        min-height: 100vh;
-        text-align: center;
-        min-height: 100vh;
-        margin-top: -65px;
-        margin-left: -110px;
-        margin-right: -16px;
-        padding-top: 200px;
-        padding-bottom: 300px;
-    }
 
     .logo {
         margin-left: -30px;
@@ -237,6 +205,11 @@ body {
 
     .nav a {
         font-size: 30px;
+
+    }
+
+    .nav-icons {
+        margin-top: 2px;
     }
 
     .nav-icons img {
