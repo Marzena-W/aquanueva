@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #F5F5F5;
+    min-height: 100vh;
+    margin-top: 100px;
+}
+
+/*  header */
+.navbar-toggler {
+    font-size: 2rem;
+    padding: 10px 15px;
+    border: 2px solid black !important;
+    border-radius: 10px;
+    box-shadow: 3px 5px black;
+    right: 35px;
+    position: absolute;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+.fa-bars {
+    color: black;
+}
+
+.navbar-toggler:hover {
+    box-shadow: none;
+    background-color: #F5F5F5;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    outline: none;
+    background-color: #F5F5F5;
+}
+
+.nav-wrapper {
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding-left: 50px;
+    border-top: 3px solid black;
+    border-bottom: 2.5px solid black;
+    /*  sticky header */
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+}
+
+.nav a {
+    color: black;
+    font-size: 18px;
+    margin: 0 10px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: 'Syne', sans-serif;}
+
+.nav a:hover {
+    text-decoration: none;
+    box-shadow: none;
+    text-transform: uppercase;;
+}
+
+.nav-icons {
+    padding-right: 50px;
+}
+
+.icons {
+    display: inline;
+    margin: 0 7px;
+}
+
+.nav-icons img {
+    width: 30px;
+    height: auto;
+}
+
+.icons img:hover {
+    border-radius: 5px;
+}
+
+.navbar-link:hover {
+    text-decoration: none;
+}
+
+
+/*  top banner */
+.top-banner-wrapper {
+    position: relative;
+}
+
+.project-img {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+
+/*  paragraph section  */
+
+
+.para-sec {
+    margin: 100px 50px 80px 50px;
+}
+
+.first-para {
+    margin-top: 190px;
+}
+
+.para {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* .background {
+    background-color: #6261FD;
+} */
+
+
+
+.background {
+    background-color: black;
+    padding: 1px;
+    text-align: center;
+}
+
+.gifs {
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+/* copyright section */
+.copyright p {
+    text-align: center;
+    background-color: black;
+    color: #f5f5f5;
+    font-size: 12px;
+    padding: 15px;
+    margin: 0;
+}
+
+
+/* responsive */
+@media only screen and (max-width: 1000px) {
+     /*  mobile menu */
+     #collapsibleNavbar {
+        background-color: #F5F5F5;
+        min-height: 100vh;
+        text-align: center;
+        min-height: 100vh;
+        margin-top: -65px;
+        margin-left: -50px;
+        margin-right: -16px;
+        padding-top: 200px;
+    }
+
+    .navbar-nav {
+        margin-bottom: 50px;
+    }
+
+    .navbar-toggler {
+        border: none;
+        outline: none;
+        background-color: #F5F5F5;
+        margin-right: 20px;
+    }
+
+    .nav a {
+        color: black;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .nav a:hover {
+        background-color: #F5F5F5;
+        color: black;
+    } 
+
+    .nav-icons {
+        padding-right: 0px;
+        margin-top: 40px;
+    }
+
+    .nav-icons img {
+        width: 60px;
+    }
+
+    .first-para {
+        padding-top: 60px;
+    }
+
+    .para-sec {
+        margin: 60px 30px;
+    }
+
+    .para {
+        margin-bottom: 0px;
+    }
+
+    .project-img {
+        padding: 5px 10px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    #collapsibleNavbar {
+        background-color: #F5F5F5;
+        min-height: 100vh;
+        text-align: center;
+        min-height: 100vh;
+        margin-top: -65px;
+        margin-left: -110px;
+        margin-right: -16px;
+        padding-top: 200px;
+        padding-bottom: 300px;
+    }
+
+    .logo {
+        margin-left: -30px;
+    }
+
+    .nav a {
+        font-size: 30px;
+    }
+
+    .nav-icons img {
+        width: 40px;
+    }
+    
+    .navbar-toggler {
+        border: none;
+        outline: none;
+        background-color: #F5F5F5;
+        margin-right: 0px;
+    }
+
+    .para-sec {
+        margin: 50px 10px;
+    }
+
+    .para {
+        margin-bottom: 0px;
+    }
+
+    .go-back {
+        width: 70%;
+    }
+
+    .mobile-margin {
+        margin-bottom: 20px;
+    }
+}
